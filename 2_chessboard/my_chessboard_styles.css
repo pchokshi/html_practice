@@ -18,3 +18,32 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+body{
+  background-image: url(grey.png);
+}
+
+.board{
+ border: 5px solid black;
+ border-color: rgb(12, 125, 135);
+ margin: 0 auto;
+}
+
+.square{
+  color: rgba(249, 115, 5, 0.84);
+  font-size: 55px;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  text-shadow: 1px 1px 2px grey
+}
+.dark_square{
+  background: rgb(12, 125, 135); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(12, 125, 135) 0%, rgb(12, 125, 135) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(12, 125, 135)), color-stop(100%,rgb(12, 125, 135)))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgb(12, 125, 135) 0%,rgba(12, 125, 135) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgb(12, 125, 135) 0%,rgb(12, 125, 135) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgb(12, 125, 135) 0%,rgb(12, 125, 135) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgb(12, 125, 135) 0%,rgb(12, 125, 135) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88bfe8', endColorstr='#70b0e0',GradientType=0 ); /* IE6-9 */
+copy
+}
